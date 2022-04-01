@@ -1,0 +1,132 @@
+body {
+	background-image: linear-gradient(purple, blue);
+	margin: auto;
+	padding: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: serif;
+	text-shadow: 1px 1px rgb(10, 10, 10);
+}
+
+p {
+	font-family: sans-serif;
+}
+
+/* Content wrapper */
+.container {
+	width: 1000px;
+	margin: auto;
+	padding: 15px;
+	
+}
+.list{
+	font-size: 25px;
+}
+/* Header */
+header {
+	background-image: linear-gradient(purple, blue);
+	color: white;
+	padding: 2px;
+	text-align: center;
+	border: 1px solid black;
+
+}
+
+/* Navbar */
+ nav {
+	background-image: linear-gradient(purple, blue);
+	 padding: 12px;
+	 border: 1px solid black;
+	 text-align: center;
+	 position: sticky;
+	 top: 0;
+	 
+} 
+
+ nav a {
+	 padding-right: 12px;
+	 color: white;
+	 background-color: #8348ab;
+	 padding: 5px;
+	 text-decoration: none;
+	 font-family: sans-serif;
+	 border-radius: 25px;
+ }
+
+nav a:hover {
+	background-color: pink;	
+}
+
+ /* Hero */
+ .hero {
+	 border: 1px solid black;
+	 height: 400px;
+	 text-align: center;
+	 background-image:url("../imgs/comic background.jpeg") ;
+ }
+
+ .text-back-hero {
+	background-color: rgb(255, 255, 255,0.5);
+	padding: 12px 50px;
+	text-align: center;
+	display:inline-block;
+	position:relative;
+	top: 240px;
+	left: 50px;
+}
+
+/* Main Content */
+.column {
+	float: left;
+	width: 478px;
+	height: 400px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.column img {
+	width: 45%;
+	float: left;
+	padding-right: 10px;
+}
+
+.col-two {
+	background-image: linear-gradient(purple, blue);
+}
+
+.col-one {
+	background-image: linear-gradient(purple, blue);
+}
+
+.text-back {
+	background-color: rgb(255, 255, 255,0.3);
+	padding: 2px 10px;
+}
+
+/* Footer */
+footer {
+	clear: both;
+	padding: px;
+	border: 1px solid black;
+	text-align: center;
+	background-image: linear-gradient(purple, blue);
+	color: white;
+}
+
+a {
+	color: hotpink;
+  }
+
+/* form */
+
+
+input[type=text], input[type=email], textarea {
+	width: 80%;
+	padding: 12px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
